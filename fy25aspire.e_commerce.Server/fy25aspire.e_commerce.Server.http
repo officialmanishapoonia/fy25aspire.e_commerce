@@ -1,0 +1,6 @@
+@fy25aspire.e_commerce.Server_HostAddress = http://localhost:5064
+
+GET {{fy25aspire.e_commerce.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
