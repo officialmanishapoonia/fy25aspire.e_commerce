@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace fy25aspire.e_commerce.Server.Models
+namespace fy25aspire.e_commerce.Server.Data.Models
 {
     public class AddressDTO
     {
@@ -20,6 +20,6 @@ namespace fy25aspire.e_commerce.Server.Models
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
 
-       
+
     }
 }

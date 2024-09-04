@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace fy25aspire.e_commerce.Server.Models
+namespace fy25aspire.e_commerce.Server.Data.Models
 {
     public class UserDTO
     {
@@ -13,8 +13,7 @@ namespace fy25aspire.e_commerce.Server.Models
 
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
-        //public string CreatedBy { get; set; }
-        //public string UpdatedBy { get; set; }
+
 
     }
 }
