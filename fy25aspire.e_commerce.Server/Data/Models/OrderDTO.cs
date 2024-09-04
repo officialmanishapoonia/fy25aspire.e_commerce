@@ -6,11 +6,11 @@ namespace fy25aspire.e_commerce.Server.Data.Models
     public class OrderDTO
     {
         [Key]
-        public int Id { get; set; }
+        public string Id { get; set; }
 
-        [ForeignKey("User")]
+        [ForeignKey("user")]
         public string UserId { get; set; }
-        public UserDTO User { get; set; }
+        public UserDTO user { get; set; }
 
         public string OrderStatus { get; set; }
         public int TotalAmount { get; set; }

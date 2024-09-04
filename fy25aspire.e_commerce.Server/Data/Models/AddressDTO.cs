@@ -7,9 +7,9 @@ namespace fy25aspire.e_commerce.Server.Data.Models
     {
         [Key]
         public string Id { get; set; }
-        [ForeignKey("User")]
+        [ForeignKey("user")]
         public string UserId { get; set; }
-        public UserDTO User { get; set; }
+        public UserDTO user { get; set; }
         public string AddressType { get; set; }
         public string Address { get; set; }
         public string City { get; set; }
